@@ -1,0 +1,21 @@
+.logo{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+top:40px
+}
+.port{
+    text-align: center;
+    padding: 70px 0;
+}
+.port{
+    font-family: 'Raleway', sans-serif;
+}
+.btn-primary{
+    display: block;
+margin-left: 580px;
+margin-right: auto;
+width: 20%;
+
+}
