@@ -19,5 +19,16 @@ margin-right: auto;
 width: 20%;
 }
 .nav-link{
+    text-align:center;
     font-family: 'Raleway', sans-serif;
+}
+.heading{
+    font-family: 'Raleway', sans-serif;
+}
+#button{
+    transition-duration: 0.4s;
+    }
+#button:hover {
+        background-color: #4186a1; 
+        color: white;
 }

@@ -20,10 +20,51 @@
     </div>
     <div class="container-md"></div>
     <h1 class="port"> Welcome to my portfolio!</h1>
-<!--button to go into site-->
-<a href="./portfolio.html">
-<button type="button" class="btn btn-lg btn-primary">View My Work </button>
-</a>
+    <!--button to go into site-->
+    <a href="./portfolio.html">
+        <button type="button" class="btn btn-lg btn-primary" id="button">View My Work </button>
+        <style>
+            .button {
+                display: inline-block;
+                border-radius: 4px;
+                background-color: #f4511e;
+                border: none;
+                color: #FFFFFF;
+                text-align: center;
+                font-size: 28px;
+                padding: 20px;
+                width: 200px;
+                transition: all 0.5s;
+                cursor: pointer;
+                margin: 5px;
+            }
+
+            .button span {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.5s;
+            }
+
+            .button span:after {
+                content: '\00bb';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+            }
+
+            .button:hover span {
+                padding-right: 25px;
+            }
+
+            .button:hover span:after {
+                opacity: 1;
+                right: 0;
+            }
+        </style>
+    </a>
 </body>
 <script src="./script.js"></script>
 
