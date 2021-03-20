@@ -17,5 +17,7 @@ top:40px
 margin-left: 580px;
 margin-right: auto;
 width: 20%;
-
+}
+.nav-link{
+    font-family: 'Raleway', sans-serif;
 }
