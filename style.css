@@ -32,3 +32,6 @@ width: 20%;
         background-color: #4186a1; 
         color: white;
 }
+.btn{
+    justify-content: center;
+}
