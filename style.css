@@ -1,37 +1,47 @@
-.logo{
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 40%;
-top:40px
+.port {
+  text-align: center;
+  padding: 70px 0;
 }
-.port{
-    text-align: center;
-    padding: 70px 0;
+.btn-primary {
+  display: block;
+  margin-left: 580px;
+  margin-right: auto;
+  width: 20%;
 }
-.port{
-    font-family: 'Raleway', sans-serif;
+.nav-link {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
 }
-.btn-primary{
-    display: block;
-margin-left: 580px;
-margin-right: auto;
-width: 20%;
+.heading {
+  font-family: "Raleway", sans-serif;
 }
-.nav-link{
-    text-align:center;
-    font-family: 'Raleway', sans-serif;
+#button {
+  transition-duration: 0.4s;
 }
-.heading{
-    font-family: 'Raleway', sans-serif;
-}
-#button{
-    transition-duration: 0.4s;
-    }
 #button:hover {
-        background-color: #4186a1; 
-        color: white;
+  background-color: #4186a1;
+  color: white;
 }
-.btn{
-    justify-content: center;
+.btn {
+  justify-content: center;
+}
+
+.hero-head {
+  background-color: black;
+}
+.is-parent {
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-foot {
+  background-color: black;
+}
+.responsive {
+    width: 35%;
+    height: auto;
+  }
+
+.container{
+    background-color: black;
 }
