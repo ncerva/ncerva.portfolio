@@ -6,6 +6,10 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"
+    />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
@@ -13,37 +17,51 @@
 
 <body>
     <!--navbar beginning-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">Home <span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
+    <section class="hero is-info is-large">
+        <div class="hero-head">
+          <nav class="navbar">
+            <div class="container">
+              </div>
+              <div id="navbarMenuHeroB" class="navbar-menu">
+                <div class="navbar-end">
+                </div>
+              </div>
+            </nav>
+            </div>
         </div>
-    </nav>
+        <div class="tile is-parent">
+          <img src="images/name.png" alt="">
+          </figure>
+      </div>
+      
+        <div class="hero-foot">
+          <nav class="tabs is-boxed is-fullwidth">
+            <div class="container">
+              <ul>
+                <li class="is-active">
+                </li>
+                <li>
+                  <a href="./index.html">Home</a>
+                </li>
+                <li>
+                  <a href="./portfolio.html">My Work</a>
+                </li>
+                <li>
+                  <a href="./contact.html">Contact Me</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
     <!--navbar end-->
     <!-- container -->
     <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <img src="./images/hello.png" alt="" width="250" height="95">
-                <div>
-                    <div class="row">
-                        <div class="col-sm">
-                            <img src="./images/IMG_5679.jpg" alt="" width="350" height="380">
-                            <div>
-                    <p>My name is Nayeli Cervantes and I am a graphic Designer based in San Antonio.
+      <div class="image">
+                            <img src="./images/nayeli.JPEG" alt="" width="350" height="380" class="responsive">
+                          </div>
+                          <div class="words">
+                    <p class="paragraph">My name is Nayeli Cervantes and I am a graphic Designer based in San Antonio.
 
                         In my portfolio you will find my work with the non-profit organization, Maestro Entrepreneur
                         Center, as well as work from my freelance opportunities.
@@ -52,20 +70,18 @@
                         enrolled in the UTSA Coding Bootcamp to become a full stack web developer (more to come soon!).
 
                         You can contact me at nayelicervantes40@gmail.com for inquiries or more information. </p>
-                        <h4>You can learn more about me below:</h4>
+                        <h4 class="paragraph">You can learn more about me below:</h4>
                         <a href="https://www.linkedin.com/in/nayeli-cervantes-477a73156/">
-                        <button class="linkedin">LinkedIn</button>
+                        <button class="button is-light">LinkedIn</button>
                         </a>
                         <a href="https://github.com/ncerva">
-                        <button class="linkedin">GitHub</button>
+                        <button class="button is-light">GitHub</button>
                         </a>
                         <a href="./Assets/resume.pdf">
-                            <button class="linkedin">My Resume</button>
+                            <button class="button is-light">My Resume</button>
                             </a>
                 </div>
-                <a href="https://www.linkedin.com/in/nayeli-cervantes-477a73156/" class="btn btn-primary btn-lg disabled" id="button" tabindex="-1" role="button"
-                    aria-disabled="true">Contact Me</a>
-                <div class="container-sm"></div>
+              </div>
             </div>
         </div>
     </div>
